@@ -27,7 +27,7 @@ namespace NHLStats.Api.Models
             Field<PlayerType>(
              "updatePlayer",
              arguments: new QueryArguments(
-                 new QueryArgument<NonNullGraphType<PlayerInputType>> { Name = "player" },
+                 new QueryArgument<NonNullGraphType<PlayerInputType>> { Name = "player" }
              ),
              resolve: context =>
              {
